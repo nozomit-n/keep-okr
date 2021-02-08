@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/nozomit-n/keep-okr.git",
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "serverless": "^2.22.0"
+  }
 }
