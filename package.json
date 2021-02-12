@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "serverless-prune-plugin": "^1.4.3",
-    "serverless-ruby-layer": "^1.4.0"
+    "serverless-ruby-layer": "^1.4.0",
+    "serverless-ruby-package": "^1.4.0"
   }
 }

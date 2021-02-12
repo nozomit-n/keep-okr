@@ -4435,6 +4435,11 @@ serverless-ruby-layer@^1.4.0:
     jszip "^3.1.0"
     rimraf "^3.0.2"
 
+serverless-ruby-package@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/serverless-ruby-package/-/serverless-ruby-package-1.4.0.tgz#42179e7fd08ade8def29ce4bc95ea19627656e3c"
+  integrity sha512-OFVvYMihRIjKv7pdrBGo2O4pLPw0yTe7pBTyNwah2tQgVUDvQ5qNrdt6K/VvH99mz9k2MzD3HMkMCHM33kNDwQ==
+
 serverless@^2.23.0:
   version "2.23.0"
   resolved "https://registry.yarnpkg.com/serverless/-/serverless-2.23.0.tgz#3dcb41d343ec2669edb328f415cc8c712b5f14fb"
