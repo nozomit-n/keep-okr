@@ -8,5 +8,8 @@
   "dependencies": {
     "serverless": "^2.23.0",
     "serverless-offline": "^6.8.0"
+  },
+  "devDependencies": {
+    "serverless-hooks-plugin": "^1.1.0"
   }
 }
