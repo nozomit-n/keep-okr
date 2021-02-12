@@ -10,6 +10,7 @@
     "serverless-offline": "^6.8.0"
   },
   "devDependencies": {
+    "serverless-prune-plugin": "^1.4.3",
     "serverless-ruby-layer": "^1.4.0"
   }
 }
