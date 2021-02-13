@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  serverless:
+    build:
+      context: .
+      dockerfile: docker/ruby/Dockerfile
+      args:
+        - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+        - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+    tty: true
+    stdin_open: true
+    image: serverless
+    working_dir: /app
+    volumes:
+      - .:/app
+    container_name: serverless
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    ports:
+      - "8080:8080"
